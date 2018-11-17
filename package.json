@@ -4,5 +4,8 @@
   "description": "you better fucken' recycle",
   "main": "index.js",
   "author": "Alex Zvorygin <grafetu@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.9.0"
+  }
 }
