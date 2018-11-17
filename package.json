@@ -1,0 +1,8 @@
+{
+  "name": "recycle",
+  "version": "0.1.0",
+  "description": "you better fucken' recycle",
+  "main": "index.js",
+  "author": "Alex Zvorygin <grafetu@gmail.com>",
+  "license": "MIT"
+}
