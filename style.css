@@ -2,6 +2,46 @@
     line-height: 200px;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.body::-webkit-scrollbar { width: 0 !important }
+
+
+#bg {
+    position: absolute;
+    background-image: url('bg.jpg');
+    background-size: 100% 100%;
+}
+
+.boss {
+    position: relative;
+}
+
+#legs-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#legs {
+    position: relative;
+    left: -50%;
+    top: -50%;
+    border: dotted red 1px;
+
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.container {
+    margin-top: 10%;
+}
+
 .refuse {
     margin: 5%;
 }
@@ -19,6 +59,24 @@
 #gum {
     width: 100%;
     display: none;
+}
+
+#mathnews {
+    width: 100%;
+    display: none;
+}
+
+.boss{
+    display: none;
+    /* background-image: url('bg.jpg'); */
+    width: 100%;
+    height: 100%;
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 
