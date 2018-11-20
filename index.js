@@ -96,5 +96,5 @@ const recycle = () => {
 
 
 // setTimeout(run, 600)
-setTimeout(recycle, 500)
+//setTimeout(recycle, 500)
 // recycle();
